@@ -25,7 +25,6 @@ const AllUsers = () => {
         toast.success('Make admin successful.')
         refetch();
     }
-    console.log(data);
     })
   }
 
