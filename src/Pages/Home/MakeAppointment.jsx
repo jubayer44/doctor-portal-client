@@ -9,7 +9,7 @@ const MakeAppointment = () => {
       <div className="hero text-white h-[533px]"
       style={{background: `url(${appointment})`}}
       >
-        <div className="hero-content flex-col md:flex-row">
+        <div className="hero-content flex-col md:flex-row pb-0">
           <div className="hidden md:block md:w-1/2">
             <img src={doctor} alt="" className="-mt-52 h-[636px]"/>
           </div>
